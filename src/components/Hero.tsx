@@ -99,8 +99,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
               {/* Arch Image Frame */}
               <div className="relative overflow-hidden hero-arch border-4 border-white shadow-[0_20px_50px_rgba(18,55,42,0.15)] bg-[#FAF5EC] aspect-[4/5] max-h-[560px] w-full">
                 <img
-                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=85"
-                  alt="Joginder Karyana Fresh Pantry and Vegetable Shelves"
+                  src="/image12.png"
+                  alt="Joginder Karyana Kiryana Store Shelves and Essentials"
                   className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700 ease-out"
                   loading="eager"
                 />
