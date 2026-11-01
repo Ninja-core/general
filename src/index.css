@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-cream: #FAF5EC;
+    --primary-green: #12372A;
+    --secondary-green: #6F9277;
+    --accent-orange: #E8A044;
+    --card-bg: #FFFDF8;
+    --text-dark: #26352D;
+    --border-subtle: #E8E1D3;
+  }
+
+  body {
+    background-color: var(--bg-cream);
+    color: var(--text-dark);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF5EC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8CEBD;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6F9277;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Arch mask for hero image */
+.hero-arch {
+  border-top-left-radius: 260px;
+  border-top-right-radius: 260px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.story-arch {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
