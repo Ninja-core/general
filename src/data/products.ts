@@ -334,7 +334,7 @@ export const PRODUCTS: Product[] = [
     price: 168,
     originalPrice: 190,
     discountBadge: 'Buy 3 Get 1',
-    image: 'https://images.unsplash.com/photo-1608248597359-002d2449a0d8?auto=format&fit=crop&w=600&q=80',
+    image: '/image11.png',
     rating: 4.9,
     reviewsCount: 142,
     inStock: true,
